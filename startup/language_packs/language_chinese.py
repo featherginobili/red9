@@ -8,11 +8,11 @@ class Generic(language_english.Generic):
     contactme = u'連絡我'.encode('utf-8')
     
     tools = '工具'
-    reset = 'Reset to Default'
+    reset = '重新設定'
     vimeo_menu = 'VimeoHelp'
     vimeo_help = "Open Vimeo Help File"
     
-    hierarchy = 'Hierarchy'
+    hierarchy = '層級'
     hierarchy_ann = 'Process Hierarchy'
     apply = 'Apply'
     set = 'set'
