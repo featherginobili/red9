@@ -5,9 +5,9 @@ import Red9.startup.language_packs.language_english as language_english
 
 class Generic(language_english.Generic):
     
-    contactme = u'久有歸天願'.encode('utf-8')
+    contactme = u'連絡我'.encode('utf-8')
     
-    tools = 'Tools'
+    tools = '工具'
     reset = 'Reset to Default'
     vimeo_menu = 'VimeoHelp'
     vimeo_help = "Open Vimeo Help File"
