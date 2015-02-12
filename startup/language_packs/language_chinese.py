@@ -83,7 +83,7 @@ class SearchNodeUI(language_english.SearchNodeUI):
     '''
     Main node Search UI, this is inherited by the AnimUI as they share the same filter options
     '''
-    title = u'久有归天愿'.encode('utf-8')
+    title = u'搜尋介面'.encode('utf-8')
     
     complex_node_search = 'Complex Node Search'
     complex_node_search_ann = 'nodeTypeSelectors'
@@ -103,7 +103,7 @@ class SearchNodeUI(language_english.SearchNodeUI):
     include_roots_ann = 'Include the originalRoots in the selection'
     intersection_search = 'Intersection Search - All Above Fields'
     simple_hierarchy ='Simple Hierarchy'
-    title = u'久有归天愿'.encode('utf-8')
+    title = u'搜尋工具'.encode('utf-8')
     
 
 # ======================================================================================
@@ -111,7 +111,7 @@ class SearchNodeUI(language_english.SearchNodeUI):
 # ======================================================================================
 
 class AnimationUI(SearchNodeUI):
-    title = 'TESTING TESTING TESTING'
+    title = '動畫工具介面'
     tab_animlayout = 'Animation_Toolkit'
     tab_poselayout = 'PoseManager'
     tab_filterlayout = 'Hierarchy_Control'
@@ -348,10 +348,10 @@ class Mirror_Setup(language_english.Mirror_Setup):
     load_configs = 'Load MirrorConfigs'
     
 class CameraTracker(language_english.CameraTracker):
-    title = 'CameraTracker'
+    title = '攝影機追蹤器'
     tracker_step = 'TrackerStep: '
-    frames = 'frames'
-    maintain_frame = 'MaintainCurrentFraming'
+    frames = '格數'
+    maintain_frame = '維持現有構圖'
     pan = 'Pan'
     track = 'Track'
     
