@@ -42,7 +42,7 @@ class Generic(language_english.Generic):
     meshes = 'Meshes'
     joints = '關節'
     locators = 'Locators'
-    cameras = 'Cameras'
+    cameras = '攝影機'
     audio ='Audio'
     orient_constraint = 'OrientConstraint'
     point_constraint ='PointConstraint'
